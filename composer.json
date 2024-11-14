@@ -1,0 +1,25 @@
+{
+    "name": "focuson/meta-pixel-serverside-for-woocommerce",
+    "type": "wordpress-plugin",
+    "description": "Meta Pixel Server Side for WooCommerce",
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "pcatapan",
+            "email": "pasquale@focuson.agency"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Focuson\\MPSFW\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "facebook/php-business-sdk": "^20.0"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.1"
+    }
+}
