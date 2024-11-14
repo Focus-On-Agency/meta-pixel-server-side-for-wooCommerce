@@ -140,7 +140,5 @@ class EventHandleController
 		$event_id = uniqid('event_', true);
 
 		$CAPI->sendEvent('PageView', $user_data, $event_data, $event_id);
-
-		//ClientController::sendClientEvent('PageView', $user_data, $event_data, $event_id);
 	}
 }
